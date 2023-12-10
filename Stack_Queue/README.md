@@ -29,3 +29,8 @@ Lab 07 - Math Potato
 -
 
 The upgrade of the Lab 06 - here we have to keep count ot the rounds as if it's a prime round, nobody can be removed from the circle, only supposed to print the name of the kid who is holding the potato. Another thing as upgrade here is that a PriorityQueue has to be use for this solution instead of a regular Queue, which means that the kids have to be sorted by their names all the time. A function which checks if the round is prime or not is implemented for a code clarity. 
+
+Lab 08 - Browser History Upgrade
+-
+
+This is an Upgrade of a Lab 01 Browser history, where there was only back functionality. This solution uses 2 stacks - one for back and one for forward urls to simulate real browser job. If a new URL is input into the browsers url address all the forward stack urls are cleared. 
