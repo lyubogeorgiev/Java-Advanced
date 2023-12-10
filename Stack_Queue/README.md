@@ -44,3 +44,8 @@ Exercise 02 - Basic Stack Operations
 -
 
 This is an exercise about pushing elements into a stack and polling elements out of the stack. The lesson learned from this exercise is how to find the smallest element on the stack which will return and optional.
+
+Exercise 03 - Maximum Element
+-
+
+The problem is solved by using basic stack operations. The most specific part is using the max function on a stream of the stack which returns an optional result. 
