@@ -19,3 +19,8 @@ Lab 05 - Printer Queue
 -
 
 The solution of a printer queue was implemented by using a Queue data structure. The files to be printed could be canceled one by one, or if the printer queue is empty and the user tries to cancel a print job, it displays a message that "The printer is on Standby". Then all the files are printer in order of FIFO until the queue is empty. 
+
+Lab 06 - Hot Potato
+-
+
+The Hot Potato labs' solution was implemented by simulation the circle of kids that are passing the hot potato between each other by using a queue data structure. The number of rounds n at which a kid goes out is defined by the user as a second input variable. The loop with the potato passing through the kids going until the circle has only 1 kid left inside, in ither words, the while loop breaks when the queue size reaches 1.
