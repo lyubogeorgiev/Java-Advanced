@@ -34,3 +34,8 @@ Lab 08 - Browser History Upgrade
 -
 
 This is an Upgrade of a Lab 01 Browser history, where there was only back functionality. This solution uses 2 stacks - one for back and one for forward urls to simulate real browser job. If a new URL is input into the browsers url address all the forward stack urls are cleared. 
+
+Exercise 01 - Reverse Numbers with a Stack
+-
+
+Straightforward problem to collect a user input on one line with space between the numbers, push all the numbers in a stack and the pull numbers back from the stack and print on the console with a space between each number. 
