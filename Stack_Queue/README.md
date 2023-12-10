@@ -24,3 +24,8 @@ Lab 06 - Hot Potato
 -
 
 The Hot Potato labs' solution was implemented by simulation the circle of kids that are passing the hot potato between each other by using a queue data structure. The number of rounds n at which a kid goes out is defined by the user as a second input variable. The loop with the potato passing through the kids going until the circle has only 1 kid left inside, in ither words, the while loop breaks when the queue size reaches 1.
+
+Lab 07 - Math Potato
+-
+
+The upgrade of the Lab 06 - here we have to keep count ot the rounds as if it's a prime round, nobody can be removed from the circle, only supposed to print the name of the kid who is holding the potato. Another thing as upgrade here is that a PriorityQueue has to be use for this solution instead of a regular Queue, which means that the kids have to be sorted by their names all the time. A function which checks if the round is prime or not is implemented for a code clarity. 
