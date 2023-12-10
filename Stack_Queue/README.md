@@ -39,3 +39,8 @@ Exercise 01 - Reverse Numbers with a Stack
 -
 
 Straightforward problem to collect a user input on one line with space between the numbers, push all the numbers in a stack and the pull numbers back from the stack and print on the console with a space between each number. 
+
+Exercise 02 - Basic Stack Operations
+-
+
+This is an exercise about pushing elements into a stack and polling elements out of the stack. The lesson learned from this exercise is how to find the smallest element on the stack which will return and optional.
