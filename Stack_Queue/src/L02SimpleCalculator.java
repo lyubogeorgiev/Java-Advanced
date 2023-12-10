@@ -1,9 +1,8 @@
 import java.util.ArrayDeque;
-import java.util.Arrays;
 import java.util.Deque;
 import java.util.Scanner;
 
-public class l02SimpleCalculator {
+public class L02SimpleCalculator {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -11,8 +10,6 @@ public class l02SimpleCalculator {
 
         Deque<String> signs = new ArrayDeque<>();
         Deque<Integer> numbers = new ArrayDeque<>();
-
-        int result = 0;
 
         for (int i = tokens.length - 1; i >= 0; i--) {
             if (tokens[i].equals("-") || tokens[i].equals("+")){
