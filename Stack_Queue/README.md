@@ -49,3 +49,10 @@ Exercise 03 - Maximum Element
 -
 
 The problem is solved by using basic stack operations. The most specific part is using the max function on a stream of the stack which returns an optional result. 
+
+Exercise 04 - Basic Queue Operations
+-
+
+This is an exercise about putting elements to a queue with offer() and polling out with poll(). Also for the problem
+solution is used a function to find the minimum element in the queue, which looks like this:
+queue.stream().min(Integer::compareTo).orElse(0); which returns Optional.
