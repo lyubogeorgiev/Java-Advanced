@@ -73,3 +73,9 @@ Exercise o6
 The problem of finding fibonacci numbers recursively was sold by creating a recursive function to find the current
 fibonacci number by adding the previous two numbers. In order to preserve some memory we are creating a memoery table
 with the fibonacci values which are already calculated and reuse them. 
+
+Exercise 07
+-
+
+To create a simple text editor and to be able to keep track of the states of the edited text we are creating a stack of 
+string where we are going to push the string after each change. That is how we are going to be able to undo commands. 
