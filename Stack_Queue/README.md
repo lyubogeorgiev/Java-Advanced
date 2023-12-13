@@ -56,3 +56,13 @@ Exercise 04 - Basic Queue Operations
 This is an exercise about putting elements to a queue with offer() and polling out with poll(). Also for the problem
 solution is used a function to find the minimum element in the queue, which looks like this:
 queue.stream().min(Integer::compareTo).orElse(0); which returns Optional.
+
+Exercise 05 - Balanced Parenthesis
+-
+
+A problem where a basic string input is provided in the console by the user. The input consists of only open - "(", "[", "{" 
+or close - ")", "]", "}" parenthesis. The close parenthesis have to match the open parenthesis by type and distance. 
+The provided solution is by using 2 Lists as a table for open and close parenthesis. The matching open nd close parenthesis
+have the same indexes in their corresponding list, so basically we are finding the index of the open parenthesis and check
+if it corresponds to the index of the closing parenthesis in the list of closing parenthesis. A stack is implemented for 
+keeping track of the order of open parenthesis.
