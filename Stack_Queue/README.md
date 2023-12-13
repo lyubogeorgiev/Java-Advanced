@@ -66,3 +66,10 @@ The provided solution is by using 2 Lists as a table for open and close parenthe
 have the same indexes in their corresponding list, so basically we are finding the index of the open parenthesis and check
 if it corresponds to the index of the closing parenthesis in the list of closing parenthesis. A stack is implemented for 
 keeping track of the order of open parenthesis.
+
+Exercise o6
+-
+
+The problem of finding fibonacci numbers recursively was sold by creating a recursive function to find the current
+fibonacci number by adding the previous two numbers. In order to preserve some memory we are creating a memoery table
+with the fibonacci values which are already calculated and reuse them. 
