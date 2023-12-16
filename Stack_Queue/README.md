@@ -78,4 +78,8 @@ Exercise 07
 -
 
 To create a simple text editor and to be able to keep track of the states of the edited text we are creating a stack of 
-string where we are going to push the string after each change. That is how we are going to be able to undo commands. 
+string where we are going to push the string after each change. That is how we are going to be able to undo commands.
+
+Exercise 08 Infix to Postfix
+-
+
