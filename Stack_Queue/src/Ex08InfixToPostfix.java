@@ -59,7 +59,7 @@ public class Ex08InfixToPostfix {
                         break;
                     }
 
-                    result.append(currentSymbol);
+                    result.append(currentSymbol).append(" ");
                 }
             } else {
                 result.append(symbol).append(" ");
