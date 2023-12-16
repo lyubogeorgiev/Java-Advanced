@@ -62,12 +62,12 @@ public class Ex08InfixToPostfix {
                     result.append(currentSymbol).append(" ");
                 }
             } else {
-                result.append(symbol).append(" ");
+                result.append(symbol).append(" ").append(" ");
             }
         }
 
         while (!operatorsStack.isEmpty()){
-            result.append(operatorsStack.pop());
+            result.append(operatorsStack.pop()).append(" ");
         }
 
         System.out.println(result.toString().trim());
