@@ -80,6 +80,13 @@ Exercise 07
 To create a simple text editor and to be able to keep track of the states of the edited text we are creating a stack of 
 string where we are going to push the string after each change. That is how we are going to be able to undo commands.
 
-Exercise 08 Infix to Postfix
+Exercise 08 - Infix to Postfix
 -
 
+Implemented algorithm to convert an expression from infix to postfix. The algorithm is implemented by using a stack.
+
+Exercise 09 - Poisonous Plants
+-
+
+The problem was solved by using 2 queues, as first is the main one, and using the second one as temporary storage, then
+transfer the elements back to the first one at the end of each iteration. 

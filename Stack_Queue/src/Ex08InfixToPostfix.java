@@ -34,7 +34,7 @@ public class Ex08InfixToPostfix {
 
                         while (isPrecedenceLower){
                             if (!operatorsStack.isEmpty()){
-                                result.append(operatorsStack.pop());
+                                result.append(operatorsStack.pop()).append(" ");
                             }
 
                             if (!operatorsStack.isEmpty()){
@@ -62,7 +62,7 @@ public class Ex08InfixToPostfix {
                     result.append(currentSymbol).append(" ");
                 }
             } else {
-                result.append(symbol).append(" ").append(" ");
+                result.append(symbol).append(" ");
             }
         }
 
