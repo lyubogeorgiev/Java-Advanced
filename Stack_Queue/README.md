@@ -90,3 +90,11 @@ Exercise 09 - Poisonous Plants
 
 The problem was solved by using 2 queues, as first is the main one, and using the second one as temporary storage, then
 transfer the elements back to the first one at the end of each iteration. 
+
+Exercise 10 - Robotics
+-
+
+Two queues are used to imitate the assembly line and the line of robots, available and not to work. The data of how long 
+does it take to a robot to get job done and if it is taken and when will be available is stored to a map, where key is
+the name of the robot and for value there is a Array of Long with first value of how long does it take to a robot to get
+a job done and second value of at what time the robot is available. 
