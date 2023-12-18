@@ -7,7 +7,6 @@ public class L01CompareMatrices {
 
         String[] firstMatrixInput = scanner.nextLine().split("\\s+");
         int mFirst = Integer.parseInt(firstMatrixInput[0]);
-        int nFirst = Integer.parseInt(firstMatrixInput[1]);
 
         int[][] firstMatrix = new int[mFirst][];
 
@@ -20,7 +19,6 @@ public class L01CompareMatrices {
         String[] secondMatrixInput = scanner.nextLine().split("\\s+");
 
         int mSecond = Integer.parseInt(secondMatrixInput[0]);
-        int nSecond = Integer.parseInt(secondMatrixInput[1]);
 
         int[][] secondMatrix = new int[mSecond][];
 
