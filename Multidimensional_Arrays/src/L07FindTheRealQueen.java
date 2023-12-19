@@ -14,7 +14,7 @@ public class L07FindTheRealQueen {
         int validQueenCol = -1;
 
         for (int i = 0; i < matrix.length; i++) {
-            if (validQueenCol != -1 && validQueenRow != -1){
+            if (validQueenCol != -1){
                 break;
             }
 
