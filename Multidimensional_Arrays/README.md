@@ -25,3 +25,11 @@ the array - rows and columns, and the third row of output is the sum of elements
 problem, oe of the ways is without creating an array - just straight forward read the numbers from the console and add 
 them to the sum. Because the lesson is for two-dimensional arrays specifically, the problem is solved by using a
 two-dimensional array - putting all elements and then loop through them to sum them.
+
+Lab 05 - Maximum Sum of 2x2 Sub Matrix
+-
+
+Iterating through each 2x2 submatrix inside the main matrix and find each ones sum. Store the maximum sum so far in a
+variable and compare the next one with it. If the new maximum sum is bigger than the last maximum sum, then change the
+value of the variable to the new maximum sum. Create a 2x2 array to store the values of the sub matrix with the maximum
+sum.
