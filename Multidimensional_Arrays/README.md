@@ -49,3 +49,10 @@ we iterate through the matrix and check every single q for it. We use 4 differen
 main diagonal and second diagonal. According to the principle of a single responsibility of a method, the methods for
 checking the diagonals should be separated into 2 different methods each where one will check the upper part of each diagonal
 and the second will check the lower part of each diagonal. 
+
+Lab 08 - Wrong Measurement
+-
+
+Looping through an two-dimensional array and compare the value with the wrong value. If the value is the same as the
+wrong value, it has to be replaced with a sum of all neighbouring values if there is a neighbour value and if the 
+neighbour value is not wrong value, too. At the end printing the matrix with the replaced values.
