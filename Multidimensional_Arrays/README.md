@@ -33,3 +33,10 @@ Iterating through each 2x2 submatrix inside the main matrix and find each ones s
 variable and compare the next one with it. If the new maximum sum is bigger than the last maximum sum, then change the
 value of the variable to the new maximum sum. Create a 2x2 array to store the values of the sub matrix with the maximum
 sum.
+
+Lab 06 - Print Diagonals of Square Matrix
+-
+
+Printing diagonals of a square matrix. To print the main diagonal simply loop through the matrix from 0 to matrix.length - 1.
+To print the second diagonal create a for loop with 2 variables inside, the first variable will iterate the rows from the last
+one to the first one and the second variable iterates through the columns from the first to the last. 
