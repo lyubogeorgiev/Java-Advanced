@@ -19,8 +19,8 @@ public class L04SumMatrixElements {
         int sum = 0;
 
         for (int[] row : matrix) {
-            for (int j = 0; j < row.length; j++) {
-                sum += row[j];
+            for (int i : row) {
+                sum += i;
             }
         }
 
