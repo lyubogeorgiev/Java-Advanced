@@ -40,3 +40,12 @@ Lab 06 - Print Diagonals of Square Matrix
 Printing diagonals of a square matrix. To print the main diagonal simply loop through the matrix from 0 to matrix.length - 1.
 To print the second diagonal create a for loop with 2 variables inside, the first variable will iterate the rows from the last
 one to the first one and the second variable iterates through the columns from the first to the last. 
+
+Lab 07 - FInd The Real Queen
+-
+
+To find the real queen, which is the only q symbol in the matrix where there is no other q on the same row, col or any diagonals
+we iterate through the matrix and check every single q for it. We use 4 different methods to check the row, columns,
+main diagonal and second diagonal. According to the principle of a single responsibility of a method, the methods for
+checking the diagonals should be separated into 2 different methods each where one will check the upper part of each diagonal
+and the second will check the lower part of each diagonal. 
