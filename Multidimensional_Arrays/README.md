@@ -69,3 +69,9 @@ Exercise 02 - Matrix of Palindromes
 Filling the matrix with palindromes related to the rows and columns of the matrix. The first symbol is a which 
 corresponds to 97 from the ASCII table. Once we find the number of the desired char symbol according to the rules to be 
 calculated we cast it from int to char. 
+
+Exercise 03 - Diagonal Difference
+- 
+
+Created 2 methods to find the sum of the primary and the secondary diagonal values respectively. After finding the 2 
+sum in the main method calculated the absolute value of their difference by using the abs() function form the Math class.
