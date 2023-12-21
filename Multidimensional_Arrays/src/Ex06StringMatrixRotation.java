@@ -54,9 +54,9 @@ public class Ex06StringMatrixRotation {
 
     public static void rotate(char[][] matrix, int times){
         if (times == 0){
-            for (int i = 0; i < matrix.length; i++) {
-                for (int j = 0; j < matrix[i].length; j++) {
-                    System.out.print(matrix[i][j]);
+            for (char[] chars : matrix) {
+                for (int j = 0; j < chars.length; j++) {
+                    System.out.print(chars[j]);
                 }
                 System.out.println();
             }
@@ -76,8 +76,8 @@ public class Ex06StringMatrixRotation {
             }
         } else if (times == 270){
             for (int i = matrix[0].length - 1; i >= 0; i--) {
-                for (int j = 0; j < matrix.length; j++) {
-                    System.out.print(matrix[j][i]);
+                for (char[] chars : matrix) {
+                    System.out.print(chars[i]);
                 }
                 System.out.println();
             }
