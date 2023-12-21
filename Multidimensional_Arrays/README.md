@@ -56,3 +56,9 @@ Lab 08 - Wrong Measurement
 Looping through an two-dimensional array and compare the value with the wrong value. If the value is the same as the
 wrong value, it has to be replaced with a sum of all neighbouring values if there is a neighbour value and if the 
 neighbour value is not wrong value, too. At the end printing the matrix with the replaced values.
+
+Exercise 01 - Fill The Matrix
+-
+
+Filling the matrix 2 different ways different from the traditional way. The problem is solved by playing with loops to 
+iterate through the matrix in different pattern to fill it the desired way. 
