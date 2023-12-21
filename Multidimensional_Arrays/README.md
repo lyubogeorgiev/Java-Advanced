@@ -62,3 +62,10 @@ Exercise 01 - Fill The Matrix
 
 Filling the matrix 2 different ways different from the traditional way. The problem is solved by playing with loops to 
 iterate through the matrix in different pattern to fill it the desired way. 
+
+Exercise 02 - Matrix of Palindromes
+-
+
+Filling the matrix with palindromes related to the rows and columns of the matrix. The first symbol is a which 
+corresponds to 97 from the ASCII table. Once we find the number of the desired char symbol according to the rules to be 
+calculated we cast it from int to char. 
