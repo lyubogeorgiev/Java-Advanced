@@ -55,10 +55,10 @@ public class Ex05MatrixShuffling {
             return false;
         }
 
-        int row1 = -1;
-        int col1 = -1;
-        int row2 = -1;
-        int col2 = -1;
+        int row1;
+        int col1;
+        int row2;
+        int col2;
 
         try {
             row1 = Integer.parseInt(inputTokens[1]);
