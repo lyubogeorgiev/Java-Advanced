@@ -84,3 +84,7 @@ main one with the maximal sum of its elements. All the 3x3 matrix that are insid
 with 2 loops. There is a valuable for the maximal sum which value is initially set to minimum integer value in Java. We 
 also keep track of the row and column of the first element of the matrix with the biggest sum of its elements, so we are
  printing this matrix on the console at the end.
+
+Exercise 05 - Matrix Shuffling
+-
+
