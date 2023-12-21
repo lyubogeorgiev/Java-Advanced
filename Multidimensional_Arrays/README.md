@@ -88,3 +88,15 @@ also keep track of the row and column of the first element of the matrix with th
 Exercise 05 - Matrix Shuffling
 -
 
+Looping through a user input, checking if it is correct. If the input is correct, swapping 2 of the matrix cells values. 
+If the input is not correct, printing a message to the user that the input is not correct.
+
+Exercise 06 - String Matrix Rotation
+-
+
+Collecting an input with a rotation command and number in () in the beginning. The collecting strings for our matrix. 
+The initial string collecting is done by using a List data structure, and keep track of the longest string. When the input 
+of the strings is done, by the word END, then creating a matrix of characters with row equal to the number of strings 
+and columns equal to the size of the longest string entered. The empty places in th matrix are filled with empty characters. 
+To rotate different degrees we created a method, which takes the matrix and the degree to which is it rotated. The matrix 
+isn't actually modified anyway when rotating, it is just the sequence of printing its elements.
