@@ -43,9 +43,9 @@ public class Ex07Crossfire {
 
     private static void printMatrixSpecial(int[][] matrix) {
         for (int[] ints : matrix) {
-            for (int j = 0; j < ints.length; j++) {
-                if (ints[j] != -1) {
-                    System.out.print(ints[j]);
+            for (int anInt : ints) {
+                if (anInt != -1) {
+                    System.out.print(anInt);
 
                     System.out.print(" ");
                 }
