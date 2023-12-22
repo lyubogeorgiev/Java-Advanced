@@ -100,3 +100,12 @@ of the strings is done, by the word END, then creating a matrix of characters wi
 and columns equal to the size of the longest string entered. The empty places in th matrix are filled with empty characters. 
 To rotate different degrees we created a method, which takes the matrix and the degree to which is it rotated. The matrix 
 isn't actually modified anyway when rotating, it is just the sequence of printing its elements.
+
+Exercise 07 - Crossfire
+-
+
+Complicated problem of eliminating elements of a matrix. The tricky part is that the main point of fire might be out of 
+the matrix, but some of the matrix cells could be still affected by the fire. All the affected cells and completely 
+affected rows are initially set to -1 when they are affected and then a method is created which moves them to the end. 
+While printing the resulting matrix, we are ignoring the cells that are set to -1 and printing only cells that have a 
+value different than -1.
