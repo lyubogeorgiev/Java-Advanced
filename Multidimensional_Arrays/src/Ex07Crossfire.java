@@ -42,14 +42,12 @@ public class Ex07Crossfire {
     }
 
     private static void printMatrixSpecial(int[][] matrix) {
-        for (int i = 0; i < matrix.length; i++) {
-            for (int j = 0; j < matrix[i].length; j++) {
-                if (matrix[i][j] != -1) {
-                    System.out.print(matrix[i][j]);
+        for (int[] ints : matrix) {
+            for (int j = 0; j < ints.length; j++) {
+                if (ints[j] != -1) {
+                    System.out.print(ints[j]);
 
-                    if (j != matrix[i].length) {
-                        System.out.print(" ");
-                    }
+                    System.out.print(" ");
                 }
             }
 
