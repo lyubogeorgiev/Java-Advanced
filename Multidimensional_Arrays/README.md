@@ -109,3 +109,13 @@ the matrix, but some of the matrix cells could be still affected by the fire. Al
 affected rows are initially set to -1 when they are affected and then a method is created which moves them to the end. 
 While printing the resulting matrix, we are ignoring the cells that are set to -1 and printing only cells that have a 
 value different than -1.
+
+Exercise 08 - The Heigan Dance
+-
+
+
+Exercise 09 - Parking System
+-
+
+Simulating a parking lot by using 2 dimensional array. Going over a lot of iterations and if-else statements to find out 
+if the desired stop is empty and if it is not empty, to find the best empty spot according to the rules.
