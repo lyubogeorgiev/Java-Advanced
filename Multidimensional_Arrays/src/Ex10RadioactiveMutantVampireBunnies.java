@@ -160,9 +160,9 @@ public class Ex10RadioactiveMutantVampireBunnies {
 
         }
 
-        for (int i = 0; i < lair.length; i++) {
-            for (int j = 0; j < lair[i].length; j++) {
-                System.out.print(lair[i][j]);
+        for (char[] chars : lair) {
+            for (char aChar : chars) {
+                System.out.print(aChar);
             }
             System.out.println();
         }
