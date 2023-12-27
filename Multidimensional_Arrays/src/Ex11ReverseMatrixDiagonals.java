@@ -18,13 +18,6 @@ public class Ex11ReverseMatrixDiagonals {
                     .toArray();
         }
 
-        for (int[] ints : matrix) {
-            for (int anInt : ints) {
-                System.out.print(anInt + " ");
-            }
-            System.out.println();
-        }
-
         for (int i = matrix.length - 1; i >= 0 ; i--) {
             if (i == matrix.length - 1){
                 for (int j = matrix[i].length - 1; j >= 0 ; j--) {
