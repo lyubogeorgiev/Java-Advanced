@@ -119,3 +119,10 @@ Exercise 09 - Parking System
 
 Simulating a parking lot by using 2 dimensional array. Going over a lot of iterations and if-else statements to find out 
 if the desired stop is empty and if it is not empty, to find the best empty spot according to the rules.
+
+Exercise 10 - Radioactive Mutant Vampire Bunnies
+-
+
+We are using 2 matrices to keep track of the multiplying bunnies but without multiplying the new bunnies each round. We 
+use the Arrays.copyOf() method to copy the values of one matrix to another. It is a complicated problem to solve with 
+many if-else checks and 2 2-dimensional arrays. 
