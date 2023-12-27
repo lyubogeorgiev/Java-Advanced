@@ -132,3 +132,8 @@ Exercise 11 - Reverse Matrix Diagonals
 
 Printing the matrix diagonals reversed. Used multiple loops for and while to iterate through the rows and columns in the 
 desired order.
+
+Exercise 12 - The Matrix
+-
+
+Changing the chars in matrix by using different patterns and boundaries.
