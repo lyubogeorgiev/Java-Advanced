@@ -8,4 +8,10 @@ appearance. If the parking lot is empty, then we print the message "Parking Lot 
 Lab 02 - SoftUni Party
 -
 
-Using a TreeSet to sort VIP guests which start with number in the beginning of the set. 
+Using a TreeSet to sort VIP guests which start with number in the beginning of the set.
+
+Lab 03 - "Voina" - Number Game
+-
+
+Using two LinkedHashSets to represent every players' stacks and preserve the order of the cards. To iterate through the 
+stacks using iterator().next(), removing every card and inserting back to the winners stack respectively.
