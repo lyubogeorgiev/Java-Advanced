@@ -15,3 +15,8 @@ Lab 03 - "Voina" - Number Game
 
 Using two LinkedHashSets to represent every players' stacks and preserve the order of the cards. To iterate through the 
 stacks using iterator().next(), removing every card and inserting back to the winners stack respectively.
+
+Lab 04 - Count Real Numbers
+-
+
+Using LinkedHashMap to count the occurrences of numbers in an user input array of doubles. 
