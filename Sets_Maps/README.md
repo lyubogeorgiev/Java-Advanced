@@ -28,3 +28,10 @@ Using a TreeMap to store all the students grades and keep in lexicographic order
 name and the value of the map will be a list of the grades. We are using a list in order to be able to add more and more 
 grades in the future. To calculate the average grade for each student, we created a function. 
 
+Lab 06 - Product Shop
+-
+
+The problem is solved by using a nested Map into the main map. Keep track of the store, and the products in each store 
+and each products' prices. For the main map we need to order the stores in lexicographic order which makes use for 
+TreeMap. For the inside Map with the products and prices in each store, we need to keep in order of inserting the 
+products which will use LinkedHashMap for it.
