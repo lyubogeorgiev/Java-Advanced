@@ -20,3 +20,11 @@ Lab 04 - Count Real Numbers
 -
 
 Using LinkedHashMap to count the occurrences of numbers in an user input array of doubles. 
+
+Lab 05 - Average Students Grades
+-
+
+Using a TreeMap to store all the students grades and keep in lexicographic order of names. The key will be the student 
+name and the value of the map will be a list of the grades. We are using a list in order to be able to add more and more 
+grades in the future. To calculate the average grade for each student, we created a function. 
+
