@@ -35,3 +35,9 @@ The problem is solved by using a nested Map into the main map. Keep track of the
 and each products' prices. For the main map we need to order the stores in lexicographic order which makes use for 
 TreeMap. For the inside Map with the products and prices in each store, we need to keep in order of inserting the 
 products which will use LinkedHashMap for it.
+
+Lab07 - Cities by Continent and Country
+-
+
+Two nested LinkedHashMaps are used to solve the problem in order to preserve the order of entrance. The first Map has 
+for the the continent name, for value has a nested Map which have key - country name and value is a List of cities. 
