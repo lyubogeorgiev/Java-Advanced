@@ -41,3 +41,9 @@ Lab07 - Cities by Continent and Country
 
 Two nested LinkedHashMaps are used to solve the problem in order to preserve the order of entrance. The first Map has 
 for the the continent name, for value has a nested Map which have key - country name and value is a List of cities. 
+
+Lab 08 - Academy Graduation
+-
+
+Created a map with key students name and value a List of students grades. Iterating through the map and created a method 
+which is used to calculate the average grade with which each student has graduated. 
