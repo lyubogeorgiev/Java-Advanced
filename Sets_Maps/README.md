@@ -47,3 +47,8 @@ Lab 08 - Academy Graduation
 
 Created a map with key students name and value a List of students grades. Iterating through the map and created a method 
 which is used to calculate the average grade with which each student has graduated. 
+
+Lab09 - Largest Three Numbers
+-
+
+Created a list and sorting the list in reverse order at the moment of entering the elements into the list. 
