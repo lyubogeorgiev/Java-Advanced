@@ -11,7 +11,7 @@ public class Lab09LargestThreeNumbers {
         List<Integer> sortedList = Arrays.stream(scanner.nextLine().split("\\s+"))
                 .map(Integer::parseInt)
                 .sorted(Comparator.reverseOrder())
-                .collect(Collectors.toList());
+                .toList();
 
         for (int i = 0; i < 3 && i < sortedList.size(); i++) {
             System.out.print(sortedList.get(i) + " ");
