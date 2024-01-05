@@ -52,3 +52,8 @@ Lab09 - Largest Three Numbers
 -
 
 Created a list and sorting the list in reverse order at the moment of entering the elements into the list. 
+
+Exercise 01 - Unique Usernames
+-
+
+In order to store only unique usernames entered by the user from the console we are storing them in a Set.
