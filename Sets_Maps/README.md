@@ -57,3 +57,8 @@ Exercise 01 - Unique Usernames
 -
 
 In order to store only unique usernames entered by the user from the console we are storing them in a Set.
+
+Exercise 02 - Sets of Elements
+-
+
+Used the existing function of the Set class retainAll to find all the elements that are present in both sets.
