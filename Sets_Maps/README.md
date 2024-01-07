@@ -62,3 +62,8 @@ Exercise 02 - Sets of Elements
 -
 
 Used the existing function of the Set class retainAll to find all the elements that are present in both sets.
+
+Exercise 03 - Periodic Table
+-
+
+TreeSet was used to keep only unique elements and also to preserve the order in which they are entered.
