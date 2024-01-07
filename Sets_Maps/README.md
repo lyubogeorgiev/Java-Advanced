@@ -67,3 +67,9 @@ Exercise 03 - Periodic Table
 -
 
 TreeSet was used to keep only unique elements and also to preserve the order in which they are entered.
+
+Exercise 04 - Count Symbols
+-
+
+TreeMap is used to count symbols in a line entered on the console by a user. Key is the character and for value we store 
+integer values, which will be increased by one if the same character has already been added as a key. 
