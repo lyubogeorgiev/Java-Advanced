@@ -73,3 +73,8 @@ Exercise 04 - Count Symbols
 
 TreeMap is used to count symbols in a line entered on the console by a user. Key is the character and for value we store 
 integer values, which will be increased by one if the same character has already been added as a key. 
+
+Exercise 05 - Phonebook
+-
+
+A HashMap is used to simulate a phonebook. The key is the name and the value is the phone number, both stored as strings. 
