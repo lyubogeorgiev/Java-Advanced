@@ -78,3 +78,11 @@ Exercise 05 - Phonebook
 -
 
 A HashMap is used to simulate a phonebook. The key is the name and the value is the phone number, both stored as strings. 
+
+Exercise 06 - Fix Emails
+-
+
+A LinkedHashMap is used to preserve the order at which the entries are entered. The key in the map is the name of the 
+person and the value is persons' email address. Email addresses which are ending in "us", "uk", or "com" are not eligible 
+to be stored in the maps, so we filter them before putting the entry to the map by using the function endsWith() which 
+is a part of the String class.
