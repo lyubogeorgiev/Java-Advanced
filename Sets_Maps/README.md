@@ -86,3 +86,11 @@ A LinkedHashMap is used to preserve the order at which the entries are entered. 
 person and the value is persons' email address. Email addresses which are ending in "us", "uk", or "com" are not eligible 
 to be stored in the maps, so we filter them before putting the entry to the map by using the function endsWith() which 
 is a part of the String class.
+
+Exercise 07 - Hands of Cards
+-
+
+Every player has a deck of cards. At the end we need to calculate each players points. To store all the players and their 
+decks of cards we are using a LinkedHashMap to preserve the order of appearance. The key of the map is String which is 
+players' name. The value is a Set of cards, which makes sure a player cannot have the same card more than once. They are 
+playing with multiple decks.
