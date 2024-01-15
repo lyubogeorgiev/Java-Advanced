@@ -94,3 +94,9 @@ Every player has a deck of cards. At the end we need to calculate each players p
 decks of cards we are using a LinkedHashMap to preserve the order of appearance. The key of the map is String which is 
 players' name. The value is a Set of cards, which makes sure a player cannot have the same card more than once. They are 
 playing with multiple decks.
+
+Exercise 08 - User Logs
+-
+
+The main map has usernames as key and another map which has IP address as a key and a count of messages from every ip 
+address as a value. 
