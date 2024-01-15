@@ -37,25 +37,13 @@ public class Ex07HandsOfCards {
             String strength = card.substring(0, card.length() - 1);
             String power = card.substring(card.length() - 1);
 
-            int value = 0;
-
-            switch (strength){
-                case "J":
-                    value = 11;
-                    break;
-                case "Q":
-                    value = 12;
-                    break;
-                case "K":
-                    value = 13;
-                    break;
-                case "A":
-                    value = 14;
-                    break;
-                default:
-                    value = Integer.parseInt(strength);
-                    break;
-            }
+            int value = switch (strength) {
+                case "J" -> 11;
+                case "Q" -> 12;
+                case "K" -> 13;
+                case "A" -> 14;
+                default -> Integer.parseInt(strength);
+            };
 
             switch (power){
                 case "S":
