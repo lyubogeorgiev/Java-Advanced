@@ -125,3 +125,8 @@ Exercise 12 - Srubsko Unleashed
 -
 Two nested maps are used to implement the solution. Venues are ordered by appearance, as singers are ordered in descending 
 order of the amount of money paid for tickets. 
+
+Exercise 13 - Dragon Army
+-
+
+Using 2 nested maps and a list as value of the second map to represent the stats of each dragon.
