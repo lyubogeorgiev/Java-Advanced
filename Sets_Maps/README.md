@@ -100,3 +100,9 @@ Exercise 08 - User Logs
 
 The main map has usernames as key and another map which has IP address as a key and a count of messages from every ip 
 address as a value. 
+
+Exercise 09- Population Counter
+-
+
+This exercise is about sorting Maps by its values. This is implemented by converting the Map to List<Map.Entry<K, V>>.
+Then a List.sort() function is used to get the lists sorted by values. 
