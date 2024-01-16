@@ -120,3 +120,8 @@ Exercise 11 - Legendary Farming
 Using 2 Maps. One is for Key Materials, the other one is for Junk Materials. When printing using a List<Map.Entry<K, V>> 
 to sort the key materials in descending order of their value. For the junk materials using a TreeMap as they need to be 
 in alphabetical order. 
+
+Exercise 12 - Srubsko Unleashed
+-
+Two nested maps are used to implement the solution. Venues are ordered by appearance, as singers are ordered in descending 
+order of the amount of money paid for tickets. 
