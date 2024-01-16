@@ -113,3 +113,10 @@ Exercise 10 - Logs Aggregator
 To keep track of the usernames with the IPs and usernames with the duration we are using 2 Maps. First map has a key of 
 username and a value of a list of durations. The second map has username as a key and value a Set of IP addresses as 
 the IP addresses in the output need to be only unique. 
+
+Exercise 11 - Legendary Farming
+-
+
+Using 2 Maps. One is for Key Materials, the other one is for Junk Materials. When printing using a List<Map.Entry<K, V>> 
+to sort the key materials in descending order of their value. For the junk materials using a TreeMap as they need to be 
+in alphabetical order. 
