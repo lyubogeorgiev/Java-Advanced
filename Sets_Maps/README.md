@@ -106,3 +106,10 @@ Exercise 09- Population Counter
 
 This exercise is about sorting Maps by its values. This is implemented by converting the Map to List<Map.Entry<K, V>>.
 Then a List.sort() function is used to get the lists sorted by values. 
+
+Exercise 10 - Logs Aggregator
+-
+
+To keep track of the usernames with the IPs and usernames with the duration we are using 2 Maps. First map has a key of 
+username and a value of a list of durations. The second map has username as a key and value a Set of IP addresses as 
+the IP addresses in the output need to be only unique. 
