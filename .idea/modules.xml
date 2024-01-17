@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/Multidimensional_Arrays/Multidimensional_Arrays.iml" filepath="$PROJECT_DIR$/Multidimensional_Arrays/Multidimensional_Arrays.iml" />
       <module fileurl="file://$PROJECT_DIR$/Sets_Maps/Sets_Maps.iml" filepath="$PROJECT_DIR$/Sets_Maps/Sets_Maps.iml" />
       <module fileurl="file://$PROJECT_DIR$/Stack_Queue/Stack_Queue.iml" filepath="$PROJECT_DIR$/Stack_Queue/Stack_Queue.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Streams_Files_Directories/Streams_Files_Directories.iml" filepath="$PROJECT_DIR$/Streams_Files_Directories/Streams_Files_Directories.iml" />
     </modules>
   </component>
 </project>
