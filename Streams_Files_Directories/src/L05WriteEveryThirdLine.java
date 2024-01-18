@@ -22,7 +22,7 @@ public class L05WriteEveryThirdLine {
 
             Files.write(outputPath, modifiedLines);
         } catch (IOException e){
-            System.out.println(e);
+            throw new RuntimeException(e);
         }
     }
 }
