@@ -23,3 +23,10 @@ Lab 04 - Extract Integers
 
 Using Scanner class to read from the file, which helps to extract integers from the file and write them to the output file 
 according to the requirements each on a new line.
+
+Lab 05 - Write Every Third Line
+-
+
+To implement the solution we are using Path class to get the path combined with Files class to read and write the entire file 
+and put each line as a entry of ArrayList<String>. Then created a new list where will store every third line of the 
+original list, and the writing the entire new list with line to the output file.
