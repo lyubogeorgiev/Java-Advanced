@@ -11,3 +11,9 @@ Lab 02 - Write to a File
 
 Using FileInputStream class to read from the file. Using if-statement to filter the symbols that doesn't have to be 
 written to the output file. Write byte by byte to the output file by using the FileOutputStream class.
+
+Lab 03 - Copy Bytes
+-
+
+Reading the file byte by byte, and printing the decimal representation of each byte. If the symbol is new line character 
+or space character, then printing the character representation to the input.
