@@ -17,3 +17,9 @@ Lab 03 - Copy Bytes
 
 Reading the file byte by byte, and printing the decimal representation of each byte. If the symbol is new line character 
 or space character, then printing the character representation to the input.
+
+Lab 04 - Extract Integers
+-
+
+Using Scanner class to read from the file, which helps to extract integers from the file and write them to the output file 
+according to the requirements each on a new line.
