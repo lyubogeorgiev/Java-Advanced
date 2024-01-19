@@ -1,5 +1,4 @@
 import java.io.File;
-import java.util.Arrays;
 
 public class L07ListFiles {
     public static void main(String[] args) {
@@ -11,12 +10,15 @@ public class L07ListFiles {
 
         File[] files = file.listFiles();
 
-        for (File currentFile : files) {
-            if (currentFile.isFile()){
+        if (files != null){
+            for (File currentFile : files) {
+                if (currentFile.isFile()){
 
-                System.out.printf("%s: [%d]%n", currentFile.getName(), currentFile.length());
+                    System.out.printf("%s: [%d]%n", currentFile.getName(), currentFile.length());
+                }
             }
         }
+
     }
 
 }
