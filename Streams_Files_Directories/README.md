@@ -30,3 +30,10 @@ Lab 05 - Write Every Third Line
 To implement the solution we are using Path class to get the path combined with Files class to read and write the entire file 
 and put each line as a entry of ArrayList<String>. Then created a new list where will store every third line of the 
 original list, and the writing the entire new list with line to the output file.
+
+Lab 06 - Sort Lines
+-
+
+Using Paths class and Files class to read and write from/to files. First reading the input file and storing all lines 
+into a list. Then making a new list where storing the sorted lines. Finally writing the new list with sorted lines to 
+the output file.
