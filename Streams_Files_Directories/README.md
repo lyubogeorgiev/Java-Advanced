@@ -37,3 +37,10 @@ Lab 06 - Sort Lines
 Using Paths class and Files class to read and write from/to files. First reading the input file and storing all lines 
 into a list. Then making a new list where storing the sorted lines. Finally writing the new list with sorted lines to 
 the output file.
+
+Lab 07 - List Files
+-
+
+Using the File class to read if the file is Directory or File. Also using the File class' method listAllFiles() to 
+create an Array of Files and list them with their sizes respectively by getting their size using the File.length() 
+function.
