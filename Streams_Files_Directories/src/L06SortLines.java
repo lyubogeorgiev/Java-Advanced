@@ -2,11 +2,7 @@ import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
-import java.util.Comparator;
 import java.util.List;
-import java.util.stream.Collectors;
-
-import static java.nio.file.Files.readAllLines;
 
 public class L06SortLines {
     public static void main(String[] args) throws IOException {
