@@ -49,3 +49,9 @@ Lab 08 - Nested Folders
 -
 
 Recursively listing all the nested folders' names.
+
+Lab 09 - Serialize Custom Object
+-
+
+Creating a custom object. Serializing into a file by using ObjectOutputStream and then deserializing it back into a new 
+object by using the ObjectInputStream class. Printing the new object to the console.
