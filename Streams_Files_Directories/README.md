@@ -44,3 +44,8 @@ Lab 07 - List Files
 Using the File class to read if the file is Directory or File. Also using the File class' method listAllFiles() to 
 create an Array of Files and list them with their sizes respectively by getting their size using the File.length() 
 function.
+
+Lab 08 - Nested Folders
+-
+
+Recursively listing all the nested folders' names.
