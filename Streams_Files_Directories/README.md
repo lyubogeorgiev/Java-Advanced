@@ -61,3 +61,10 @@ Exercise 01 - Sum Lines
 
 Using BufferedReader with FileReader to read line by line from a txt file. Sum all ascii values for each character on 
 each line and print the sum for each line on the console. 
+
+Exercise 02 - Sum Bytes
+-
+
+Reading the file byte by byte. Sum all bytes of the file without the \r\n symbols for new line. The ascii codes for 
+these symbols are 13 and 10, so we put a condition, if the byte which is read is 10 or 13 then we don't add it to the sum.
+
