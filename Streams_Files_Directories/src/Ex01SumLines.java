@@ -1,6 +1,4 @@
 import java.io.*;
-import java.nio.Buffer;
-import java.nio.file.FileSystems;
 
 public class Ex01SumLines {
     public static void main(String[] args) throws IOException {
@@ -19,7 +17,7 @@ public class Ex01SumLines {
 //            System.out.println(line);
             int sum = 0;
             for (int i = 0; i < line.length(); i++) {
-                int value = (int) line.charAt(i);
+                int value = line.charAt(i);
 
 //                System.out.print(value + " ");
 
