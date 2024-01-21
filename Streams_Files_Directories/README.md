@@ -55,3 +55,9 @@ Lab 09 - Serialize Custom Object
 
 Creating a custom object. Serializing into a file by using ObjectOutputStream and then deserializing it back into a new 
 object by using the ObjectInputStream class. Printing the new object to the console.
+
+Exercise 01 - Sum Lines
+-
+
+Using BufferedReader with FileReader to read line by line from a txt file. Sum all ascii values for each character on 
+each line and print the sum for each line on the console. 
