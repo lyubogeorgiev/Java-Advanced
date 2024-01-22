@@ -88,3 +88,9 @@ Exercise 05 - Line Numbers
 
 Reading the input file line by line by using BufferedReader and FileReader. Using a integer variable for a line counter. 
 Writing to the output file line by line while adding the line numbers in front of each line. 
+
+Exercise 06 - Word Count
+-
+
+Reading two files by using BufferedReader and FileReader. One is with words to be counted, the other one is with actual 
+test to count the word to be counted that the text contains.

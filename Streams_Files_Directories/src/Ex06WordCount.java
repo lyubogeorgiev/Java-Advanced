@@ -1,5 +1,4 @@
 import java.io.*;
-import java.util.Comparator;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import java.util.stream.Collectors;
@@ -17,7 +16,7 @@ public class Ex06WordCount {
 
         try (BufferedReader wordReader = new BufferedReader(new FileReader(inputWords));
             BufferedReader textReader = new BufferedReader(new FileReader(inputText));
-            PrintWriter printWriter = new PrintWriter(outputText);
+            PrintWriter printWriter = new PrintWriter(outputText)
         ) {
             String[] words = wordReader.readLine().split("\\s+");
 
