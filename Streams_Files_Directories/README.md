@@ -74,3 +74,11 @@ Exercise 03 - All Capitals
 Using FileReader class wrapped in a BufferedReader to read the file line by line. Once reading a current line from the file 
 converting all characters to UpperCase by using the String method .toUpperCase and then writing the current line to the new 
 file with PrintStream class.
+
+Exercise 04 - Count Character Types
+-
+
+Created 2 sets for Vowels and Punctuation marks which are used as lookup tables later. Created a Map with String as a key 
+and integer as a value to keep count of the character types. Reading the file with FileReader and BufferedReader byte by byte 
+and determining which character type is is by using the lookup tables that we created in the beginning. Finally iterating 
+over the map and writing each entry set of the map as a line to the output file by using the PrintStream class.
