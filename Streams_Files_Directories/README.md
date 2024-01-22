@@ -3,7 +3,7 @@ Lab 01 - Read File
 
 Reading a txt file byte by byte. Each byte has to be printed on the console separated by a white space. Using FileInputStream 
 class to read the file, try-catch with resources, which will automatically close the resources when the execution is finished. 
-Reading bytes while nextByte is different than -1. If there is no more byte to be read the fileInputStream.read() returns 
+Reading bytes while nextByte is different from -1. If there is no more byte to be read the fileInputStream.read() returns 
 -1 and this is our condition to stop reading. 
 
 Lab 02 - Write to a File
@@ -28,7 +28,7 @@ Lab 05 - Write Every Third Line
 -
 
 To implement the solution we are using Path class to get the path combined with Files class to read and write the entire file 
-and put each line as a entry of ArrayList<String>. Then created a new list where will store every third line of the 
+and put each line as an entry of ArrayList<String>. Then created a new list where will store every third line of the 
 original list, and the writing the entire new list with line to the output file.
 
 Lab 06 - Sort Lines
@@ -68,3 +68,9 @@ Exercise 02 - Sum Bytes
 Reading the file byte by byte. Sum all bytes of the file without the \r\n symbols for new line. The ascii codes for 
 these symbols are 13 and 10, so we put a condition, if the byte which is read is 10 or 13 then we don't add it to the sum.
 
+Exercise 03 - All Capitals
+-
+
+Using FileReader class wrapped in a BufferedReader to read the file line by line. Once reading a current line from the file 
+converting all characters to UpperCase by using the String method .toUpperCase and then writing the current line to the new 
+file with PrintStream class.
