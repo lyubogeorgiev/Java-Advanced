@@ -94,3 +94,10 @@ Exercise 06 - Word Count
 
 Reading two files by using BufferedReader and FileReader. One is with words to be counted, the other one is with actual 
 test to count the word to be counted that the text contains.
+
+Exercise 07 - Merge Two Files
+-
+
+Using BufferedReader with FireReader to read files line by line. There are other ways to read all line of a file, but 
+for large files is better idea to read with BufferedReader for performance. Once a line is read then directly write it 
+to the output file by using PrintWriter.
