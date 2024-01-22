@@ -1,8 +1,4 @@
 import java.io.*;
-import java.nio.Buffer;
-import java.nio.file.Path;
-import java.util.ArrayList;
-import java.util.List;
 
 public class Ex07MergeTwoFiles {
     public static void main(String[] args) {
