@@ -82,3 +82,9 @@ Created 2 sets for Vowels and Punctuation marks which are used as lookup tables 
 and integer as a value to keep count of the character types. Reading the file with FileReader and BufferedReader byte by byte 
 and determining which character type is is by using the lookup tables that we created in the beginning. Finally iterating 
 over the map and writing each entry set of the map as a line to the output file by using the PrintStream class.
+
+Exercise 05 - Line Numbers
+-
+
+Reading the input file line by line by using BufferedReader and FileReader. Using a integer variable for a line counter. 
+Writing to the output file line by line while adding the line numbers in front of each line. 
