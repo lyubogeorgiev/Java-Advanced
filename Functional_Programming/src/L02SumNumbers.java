@@ -11,9 +11,9 @@ public class L02SumNumbers {
         List<Integer> numbers = Arrays.stream(scanner.nextLine().split(", ")).map(Integer::parseInt).collect(Collectors.toList());
 
         Function<List<Integer>, String> countNumbers = n ->
-                String.format("Count = %d", numbers.stream().count());
+                String.format("Count = %d", numbers.size());
         Function<List<Integer>, String> calculateSum = n ->
-                String.format("Sum = %d", numbers.stream().mapToInt(i -> Integer.valueOf(i)).sum());
+                String.format("Sum = %d", numbers.stream().mapToInt(Integer::valueOf).sum());
 
         System.out.println(countNumbers.apply(numbers));
         System.out.println(calculateSum.apply(numbers));
