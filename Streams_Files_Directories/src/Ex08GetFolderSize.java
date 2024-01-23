@@ -1,7 +1,5 @@
 import java.io.File;
 import java.io.IOException;
-import java.nio.file.Files;
-import java.nio.file.Path;
 
 public class Ex08GetFolderSize {
     public static void main(String[] args) throws IOException {
@@ -16,9 +14,11 @@ public class Ex08GetFolderSize {
 
         File[] files = myFolder.listFiles();
 
-        int size = 0;
-        for (File currentFile : files) {
-            size += currentFile.length();
+        long size = 0;
+        if (files != null){
+            for (File currentFile : files) {
+                size += currentFile.length();
+            }
         }
 
         System.out.println("Folder size: " + size);
