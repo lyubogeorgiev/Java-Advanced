@@ -9,6 +9,6 @@ Lab 02 - Sum Numbers
 -
 
 Storing the input in List<Integer>. Created 2 Functions that take List<Integer> as parameter and return String. The first 
-function returns a count of elements in the List with .count(). The second function returns a sum off all elements. In order 
+function returns a count of elements in the List with .size(). The second function returns a sum off all elements. In order 
 to be able to use the .sum() function over the IntStream we are mapping Integer values to the primitive int type with 
-.mapToInt(i -> Integer.valueOf(i)).
+.mapToInt(Integer::valueOf).
