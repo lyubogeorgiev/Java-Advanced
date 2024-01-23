@@ -100,4 +100,10 @@ Exercise 07 - Merge Two Files
 
 Using BufferedReader with FireReader to read files line by line. There are other ways to read all line of a file, but 
 for large files is better idea to read with BufferedReader for performance. Once a line is read then directly write it 
-to the output file by using PrintWriter.
+to the output file by using PrintWriter.'
+
+Exercise 08 - Get Folder Size
+-
+
+Getting the folder size by storing all Files from the folder in array of File and then summing all their size to get 
+the total size in bytes. The result will be different if we get the size of the folder directly. 
