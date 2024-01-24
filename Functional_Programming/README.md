@@ -26,3 +26,10 @@ Lab 04 - Add VAT
 Reading a collection of prices which are double. Creating a UnaryOperator function which takes Double and returns Double. 
 Stream over the original collection and use the created UnaryOperator unction in map to apply to each element of the collection. 
 Using stream to print and format with printf each element on a new line.
+
+Lab 05 - Filter By Age
+-
+
+Using a Predicate function to filter the entries by "older" or "younger" than the given age. For printing the result 
+using a Function in stream().map() to use only the name, age, or both, according to the rule. Storing the result in a 
+List<String> and printing it with .forEach() method line by line.
