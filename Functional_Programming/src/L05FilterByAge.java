@@ -46,7 +46,7 @@ public class L05FilterByAge {
           }
         };
 
-        List<String> result = people.entrySet().stream().filter(filterEntries).map(filterRules).collect(Collectors.toList());
+        List<String> result = people.entrySet().stream().filter(filterEntries).map(filterRules).toList();
 
         result.forEach(System.out::println);
 
