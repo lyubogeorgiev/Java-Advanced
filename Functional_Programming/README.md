@@ -18,5 +18,5 @@ Lab 03 - Count Uppercase Words
 
 Creating a Predicate function which returns true or false whether the word is starting with uppercase or not. Using the 
 predicate function in stream of words in .filter() to return a collection of the words only starting with uppercase letter. 
-printing the size of the collection and then printing each word of the collection on a new line by using .stream().forEach();
+printing the size of the collection and then printing each word of the collection on a new line by using .forEach() on List.
 

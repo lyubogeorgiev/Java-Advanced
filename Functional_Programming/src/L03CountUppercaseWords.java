@@ -15,6 +15,6 @@ public class L03CountUppercaseWords {
         List<String> uppercaseWords = Arrays.stream(text).filter(isUppercase).collect(Collectors.toList());
 
         System.out.println(uppercaseWords.size());
-        uppercaseWords.stream().forEach(System.out::println);
+        uppercaseWords.forEach(System.out::println);
     }
 }
