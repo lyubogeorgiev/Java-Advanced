@@ -12,6 +12,6 @@ public class L04AddVAT {
 
         System.out.println("Prices with VAT:");
 
-        Arrays.stream(prices).boxed().map(addVat::apply).forEach(p -> System.out.printf("%.2f%n", p));
+        Arrays.stream(prices).boxed().map(addVat).forEach(p -> System.out.printf("%.2f%n", p));
     }
 }
