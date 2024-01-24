@@ -20,3 +20,9 @@ Creating a Predicate function which returns true or false whether the word is st
 predicate function in stream of words in .filter() to return a collection of the words only starting with uppercase letter. 
 printing the size of the collection and then printing each word of the collection on a new line by using .forEach() on List.
 
+Lab 04 - Add VAT
+-
+
+Reading a collection of prices which are double. Creating a UnaryOperator function which takes Double and returns Double. 
+Stream over the original collection and use the created UnaryOperator unction in map to apply to each element of the collection. 
+Using stream to print and format with printf each element on a new line.
