@@ -33,3 +33,11 @@ Lab 05 - Filter By Age
 Using a Predicate function to filter the entries by "older" or "younger" than the given age. For printing the result 
 using a Function in stream().map() to use only the name, age, or both, according to the rule. Storing the result in a 
 List<String> and printing it with .forEach() method line by line.
+
+Lab 06 - Find Even or Odds
+-
+
+Creating a List of Integers which contains elements from lower bound to upper bound. Created a Predicate function to 
+filter the collection by command. To print the collection on one line, separated by a space, used a stream of the collection, 
+mapped to Object and then used the collect(Collectors.joining()) to join the elements with a separator and store it to a 
+String in order to print it. 
