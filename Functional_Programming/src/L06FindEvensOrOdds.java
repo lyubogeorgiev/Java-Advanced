@@ -29,7 +29,7 @@ public class L06FindEvensOrOdds {
             }
         };
 
-        List<Integer> collect = numbers.stream().filter(filterByCommand).collect(Collectors.toList());
+        List<Integer> collect = numbers.stream().filter(filterByCommand).toList();
 
         System.out.println(collect.stream().map(Object::toString).collect(Collectors.joining(" ")));
     }
