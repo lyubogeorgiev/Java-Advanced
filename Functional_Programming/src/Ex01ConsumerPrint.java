@@ -9,7 +9,7 @@ public class Ex01ConsumerPrint {
         Scanner scanner = new Scanner(System.in);
 
         List<String> words = Arrays.stream(scanner.nextLine().split("\\s+"))
-                .collect(Collectors.toList());
+                .toList();
 
         Consumer<String> print = System.out::println;
 
