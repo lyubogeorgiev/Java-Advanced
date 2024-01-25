@@ -67,3 +67,10 @@ Exercise 04 - Applied Arithmetic
 Storing the user input into a list of Integers. Creating 3 Functions respectively for add, subtract, and multiply and 
 one Consumer to print the resulting list. Creating a Switch-Case to switch over to a command and calling the right Function 
 depending on the user command. 
+
+Exercise 05 - Reverse and Exclude
+-
+
+Storing the initial collection entered by the user on console in a List<Integer>. Creating a Predicate to filter the 
+numbers which are divisible by user entered value n and Function which takes a List and returns a List to reverse it. 
+Finally printing everything by mapping it to Strings and joining it with collect(Collectors.joining()) function.
