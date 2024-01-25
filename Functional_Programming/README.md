@@ -74,3 +74,9 @@ Exercise 05 - Reverse and Exclude
 Storing the initial collection entered by the user on console in a List<Integer>. Creating a Predicate to filter the 
 numbers which are divisible by user entered value n and Function which takes a List and returns a List to reverse it. 
 Finally printing everything by mapping it to Strings and joining it with collect(Collectors.joining()) function.
+
+Exercise 06 - Predicate For Names
+-
+
+Creating a Predicate which takes a String as input and returns true if the word is less or equal to the desired length 
+entered by the user. 
