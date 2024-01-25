@@ -60,3 +60,10 @@ Exercise 03 - Custom Min Function
 
 Storing all numbers from the user input into a set. Creating a Function which takes Set<Integer> as a parameter and 
 the output is an Integer which will be the min of the set. At the end just printing the output of the function.
+
+Exercise 04 - Applied Arithmetic
+-
+
+Storing the user input into a list of Integers. Creating 3 Functions respectively for add, subtract, and multiply and 
+one Consumer to print the resulting list. Creating a Switch-Case to switch over to a command and calling the right Function 
+depending on the user command. 
