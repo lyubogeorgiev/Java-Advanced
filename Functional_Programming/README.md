@@ -47,3 +47,10 @@ Exercise 01 - Consumer Print
 
 Store the user input in a List first. Creating a Consumer function which takes a String as input and prints it on the 
 console. Using List.forEach() and the created consumer function to print each of the list elements to the console.
+
+Exercise 02 - Knights of Honor
+-
+
+Storing all names from the user input into a List. Creating a Consumer function which takes string and prints the 
+string with addition in front according to the requirement. Finally iterating over the List with functional forEach() 
+and printing each element by using the consumer function. 
