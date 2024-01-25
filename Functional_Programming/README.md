@@ -54,3 +54,9 @@ Exercise 02 - Knights of Honor
 Storing all names from the user input into a List. Creating a Consumer function which takes string and prints the 
 string with addition in front according to the requirement. Finally iterating over the List with functional forEach() 
 and printing each element by using the consumer function. 
+
+Exercise 03 - Custom Min Function
+-
+
+Storing all numbers from the user input into a set. Creating a Function which takes Set<Integer> as a parameter and 
+the output is an Integer which will be the min of the set. At the end just printing the output of the function.
