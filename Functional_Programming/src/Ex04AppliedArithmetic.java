@@ -1,7 +1,6 @@
 import java.util.Arrays;
 import java.util.List;
 import java.util.Scanner;
-import java.util.function.BiFunction;
 import java.util.function.Consumer;
 import java.util.function.Function;
 import java.util.stream.Collectors;
@@ -17,9 +16,7 @@ public class Ex04AppliedArithmetic {
         Function<Integer, Integer> add = n -> n + 1;
         Function<Integer, Integer> multiply = n -> n * 2;
         Function<Integer, Integer> subtract = n -> n - 1;
-        Consumer<List<Integer>> print = n -> {
-            System.out.println(n.stream().map(String::valueOf).collect(Collectors.joining(" ")));
-        };
+        Consumer<List<Integer>> print = n -> System.out.println(n.stream().map(String::valueOf).collect(Collectors.joining(" ")));
 
         String input = scanner.nextLine();
 
