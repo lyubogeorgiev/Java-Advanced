@@ -41,3 +41,9 @@ Creating a List of Integers which contains elements from lower bound to upper bo
 filter the collection by command. To print the collection on one line, separated by a space, used a stream of the collection, 
 mapped to Object and then used the collect(Collectors.joining()) to join the elements with a separator and store it to a 
 String in order to print it. 
+
+Exercise 01 - Consumer Print
+-
+
+Store the user input in a List first. Creating a Consumer function which takes a String as input and prints it on the 
+console. Using List.forEach() and the created consumer function to print each of the list elements to the console.
