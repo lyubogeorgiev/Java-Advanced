@@ -80,3 +80,9 @@ Exercise 06 - Predicate For Names
 
 Creating a Predicate which takes a String as input and returns true if the word is less or equal to the desired length 
 entered by the user. 
+
+Exercise 07 - Find the Smallest Element
+-
+
+Creating a Function which takes List<Integer> which is the list of user input values and returning Integer which is the 
+rightmost index of the smallest element in the list. 
