@@ -91,3 +91,8 @@ Exercise 08 - Custom Comparator
 -
 
 Created a custom Comparator which sorts the even numbers first and then smaller numbers before the larger numbers.
+
+Exercise 09 - List Of Predicates
+-
+
+Created a Predicate to filter the numbers of the collection that are divisible by the given numbers called divisors. 
