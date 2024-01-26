@@ -13,7 +13,7 @@ public class Ex09ListOfPredicates {
 
         List<Integer> divisors = Arrays.stream(scanner.nextLine().split("\\s+"))
                 .map(Integer::parseInt)
-                .collect(Collectors.toList());
+                .toList();
 
         List<Integer> numbers = new ArrayList<>();
 
