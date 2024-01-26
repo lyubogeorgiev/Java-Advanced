@@ -96,3 +96,12 @@ Exercise 09 - List Of Predicates
 -
 
 Created a Predicate to filter the numbers of the collection that are divisible by the given numbers called divisors. 
+
+Exercise 10 - Predicate Party
+-
+
+Checking the condition and command with a series of if-else statements. created Predicate which takes a String parameter 
+and checks if the name satisfies a certain condition. Then filtering through the List of names and depending if the name 
+which meets the condition has to be removed or doubled according to the main condition, either assign the filtered list 
+as our main list or if has to be doubled, then use the List function addAll() to add all elements of the filtered list to 
+the main guest list.
