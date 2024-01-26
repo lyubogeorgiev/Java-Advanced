@@ -105,3 +105,10 @@ and checks if the name satisfies a certain condition. Then filtering through the
 which meets the condition has to be removed or doubled according to the main condition, either assign the filtered list 
 as our main list or if has to be doubled, then use the List function addAll() to add all elements of the filtered list to 
 the main guest list.
+
+Exercise 11 - The Party Reservation Filter Module
+-
+
+Creating a Map with all filters to be on. The map consists a key of String, which will be unique combination of filter name 
+and value and Predicate<String> which will be the actual filtering function. At the end we iterate over the Map and 
+filter through all the filter requirements. 
