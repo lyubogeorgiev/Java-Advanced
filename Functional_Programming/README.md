@@ -86,3 +86,8 @@ Exercise 07 - Find the Smallest Element
 
 Creating a Function which takes List<Integer> which is the list of user input values and returning Integer which is the 
 rightmost index of the smallest element in the list. 
+
+Exercise 08 - Custom Comparator
+-
+
+Created a custom Comparator which sorts the even numbers first and then smaller numbers before the larger numbers.
