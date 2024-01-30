@@ -2,7 +2,6 @@ package L03BankAccount;
 
 public class BankAccount {
     private static int counter = 0;
-    private int id;
     private double balance;
     private static double DEFAULT_INTEREST_RATE = 0.02;
 

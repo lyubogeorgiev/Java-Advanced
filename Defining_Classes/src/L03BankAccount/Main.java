@@ -59,7 +59,7 @@ public class Main {
                     continue;
                 }
 
-                System.out.println(String.format("%.2f", accounts.get(id).getInterest(years)));
+                System.out.printf("%.2f%n", accounts.get(id).getInterest(years));
             }
 
             input = scanner.nextLine();
