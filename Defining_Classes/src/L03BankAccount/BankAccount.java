@@ -2,13 +2,12 @@ package L03BankAccount;
 
 public class BankAccount {
     private static int counter = 0;
-    private final int id;
     private double balance;
     private static double DEFAULT_INTEREST_RATE = 0.02;
 
     public BankAccount(){
         this.balance = 0;
-        this.id = ++counter;
+        counter++;
     }
 
     public static void setInterestRate(double interestRate) {
