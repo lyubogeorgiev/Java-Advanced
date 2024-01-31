@@ -15,3 +15,15 @@ Lab 03 - Opinion Poll
 Class Person with getters is created. The class is tested in the Main function by creating a List of Person objects, and then
 the output is filtered according to the requirements, every Person over 30 years old is printed on the console in Alphabetical 
 order of names.
+
+Exercise 01 - Opinion Poll
+-
+
+Exercise 02 - Company Roster
+-
+
+Created a class Employee which will hold the information format for employee object. For each Employee entered we are 
+creating a new object and putting the employee object into a list of employees which is inside a Map which has a String key with 
+department and List<Employee> for a value. Sorting the departments Map by average salary of the employees from the highest 
+to lowest and then taking only the first entry which is the department with the highest average salary. Printing the department 
+and all the employees within the department according to the requirements.
