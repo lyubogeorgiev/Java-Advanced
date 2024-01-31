@@ -25,14 +25,6 @@ public class Employee {
         return salary;
     }
 
-    public String getPosition() {
-        return position;
-    }
-
-    public String getDepartment() {
-        return department;
-    }
-
     public String getEmail() {
         return email;
     }
