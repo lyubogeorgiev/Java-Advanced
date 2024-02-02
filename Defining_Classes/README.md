@@ -43,3 +43,10 @@ Exercise 04 - Raw Data
 Class Car was created with the required fields. Cars are filtered according to the requirements, depending on the filter 
 word on the input. Cars are filtered according to the requirements, and the cars that are fulfilling requirements are 
 printed on the console. 
+
+Exercise 05 - Car Salesman
+-
+
+Classes Car and Engine were created. There are some optional parameters. Maps to store collection of Car with key Model 
+and collection of Engines with key Model were created. ToString methods are overwritten for both Car and Engine. 
+
