@@ -27,3 +27,12 @@ creating a new object and putting the employee object into a list of employees w
 department and List<Employee> for a value. Sorting the departments Map by average salary of the employees from the highest 
 to lowest and then taking only the first entry which is the department with the highest average salary. Printing the department 
 and all the employees within the department according to the requirements.
+
+Exercise 03 - Speed Racing
+-
+
+Created a class Car with private fields according to the requirements. The class car also has a method drive(double kmToDrive) 
+which returns boolean if it can be driven that many kilometers (fuel enough) or it can't be driven that distance (not enough fuel). 
+All the cars input from the user is stored in a TreeMap() in order to follow the order of entrance. Each car driven has the 
+method drive invoked which if it can drive updates the cars' distance driven and fuel amount available. When finished 
+driving the cars, iterate through the map and print all the cars in the format asked in the requirements. 
