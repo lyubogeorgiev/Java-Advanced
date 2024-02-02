@@ -36,3 +36,10 @@ which returns boolean if it can be driven that many kilometers (fuel enough) or 
 All the cars input from the user is stored in a TreeMap() in order to follow the order of entrance. Each car driven has the 
 method drive invoked which if it can drive updates the cars' distance driven and fuel amount available. When finished 
 driving the cars, iterate through the map and print all the cars in the format asked in the requirements. 
+
+Exercise 04 - Raw Data
+-
+
+Class Car was created with the required fields. Cars are filtered according to the requirements, depending on the filter 
+word on the input. Cars are filtered according to the requirements, and the cars that are fulfilling requirements are 
+printed on the console. 
