@@ -50,3 +50,8 @@ Exercise 05 - Car Salesman
 Classes Car and Engine were created. There are some optional parameters. Maps to store collection of Car with key Model 
 and collection of Engines with key Model were created. ToString methods are overwritten for both Car and Engine. 
 
+Exercise 06 - Pokemon Trainer
+-
+
+Classes Trainer and Pokemon were created according to the requirements. Trainer has a collection of Pokemon inside in a 
+List<Pokemon>. In the Main method, some stream functions are used to sort and filter trainers and pokemons.
