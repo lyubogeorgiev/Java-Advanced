@@ -1,4 +1,4 @@
-package Jar;
+package L01Jar;
 
 public class Pickle {
     private final String name;
