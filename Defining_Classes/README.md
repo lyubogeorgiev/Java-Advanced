@@ -55,3 +55,10 @@ Exercise 06 - Pokemon Trainer
 
 Classes Trainer and Pokemon were created according to the requirements. Trainer has a collection of Pokemon inside in a 
 List<Pokemon>. In the Main method, some stream functions are used to sort and filter trainers and pokemons.
+
+Exercise 07 - Google
+-
+
+A list of people with multiple subclasses required to crete to store different properties of the people. 
+The tricky part is that every class need to have the toString method override and the class Persons' 
+toString() method basically returns the whole output as a single string.
