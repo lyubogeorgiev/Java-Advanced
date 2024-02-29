@@ -1,7 +1,7 @@
 package Jar;
 
 public class Pickle {
-    private String name;
+    private final String name;
 
     public Pickle(){
         this.name = "pickle";
