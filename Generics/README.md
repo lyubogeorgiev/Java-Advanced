@@ -4,3 +4,9 @@ Lab 01 - L01Jar of T
 Simple Generic class, called L01Jar. Behind the L01Jar there is a functionality of a stack. To implement it 
 is used ArrayDeque.
 
+Lab 02 - Generic Array Creator
+-
+
+Creating a static method create of a class ArrayCreator with one reload. It is tricky to create a generic array creator 
+method as there is a need of unchecked typecasting, which is not error safe. 
+
