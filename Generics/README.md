@@ -10,3 +10,7 @@ Lab 02 - Generic Array Creator
 Creating a static method create of a class ArrayCreator with one reload. It is tricky to create a generic array creator 
 method as there is a need of unchecked typecasting, which is not error safe. 
 
+L03 - Generic Scale
+-
+
+We make sure to write <T extends Comparable<T>> to make sure the Generic type that scale accepts is comparable. 
