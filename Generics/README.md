@@ -14,3 +14,9 @@ L03 - Generic Scale
 -
 
 We make sure to write <T extends Comparable<T>> to make sure the Generic type that scale accepts is comparable. 
+
+L04 - List Utilities
+-
+
+We are creating a static methods to get min and max elements of a list, passed to the method. Again, we have to 
+make sure that the Generic type T extends Comparable<T>, otherwise the output might produce an error. 
