@@ -31,3 +31,9 @@ Exercise 02 - Generic Box Integer
 -
 
 The same Generic box class from he previous exercise, but test it with Integer instead of String this time. 
+
+Exercise 03 - Generic Swap Method Strings
+-
+
+Using the same Generic Box class from the previous two exercises. Testing it in Main by creating a List of boxes 
+and then swapping 2 of the values by indexes.
