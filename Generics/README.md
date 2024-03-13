@@ -20,3 +20,9 @@ L04 - List Utilities
 
 We are creating a static methods to get min and max elements of a list, passed to the method. Again, we have to 
 make sure that the Generic type T extends Comparable<T>, otherwise the output might produce an error. 
+
+Exercise 01 - Generic Box
+-
+
+Generic box that contains 1 element of any type. To override the toString() method displaying the class name by 
+using variable_name.getClass().getName();
