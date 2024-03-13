@@ -26,3 +26,8 @@ Exercise 01 - Generic Box
 
 Generic box that contains 1 element of any type. To override the toString() method displaying the class name by 
 using variable_name.getClass().getName();
+
+Exercise 02 - Generic Box Integer
+-
+
+The same Generic box class from he previous exercise, but test it with Integer instead of String this time. 
