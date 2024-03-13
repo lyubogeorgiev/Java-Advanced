@@ -37,3 +37,8 @@ Exercise 03 - Generic Swap Method Strings
 
 Using the same Generic Box class from the previous two exercises. Testing it in Main by creating a List of boxes 
 and then swapping 2 of the values by indexes.
+
+Exercise 04 - Generic Swap Method Integer
+-
+
+Same as the previous problem, but we use a Method to swap boxes, and also they are of type Integer.
