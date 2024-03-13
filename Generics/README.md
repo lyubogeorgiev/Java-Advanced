@@ -42,3 +42,9 @@ Exercise 04 - Generic Swap Method Integer
 -
 
 Same as the previous problem, but we use a Method to swap boxes, and also they are of type Integer.
+
+Exercise 05 - Generic Count Method String
+-
+
+Count all elements in a collection of boxes which are greater than a given element to compare. In this example we are 
+testing with boxes of String.
