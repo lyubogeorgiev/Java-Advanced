@@ -58,3 +58,8 @@ Exercise 07 - Custom List
 -
 
 The container of the custom list created is an array which will be resized according to certain rules. 
+
+Exercise 08 - Custom List Sorter
+-
+
+Adding a Sorter class with a static method which sorts a CustomList type by swapping elements until they are out of order.
