@@ -9,7 +9,7 @@ public class Main {
         int n = Integer.parseInt(scanner.nextLine());
 
         for (int i = 0; i < n; i++) {
-            Box<Integer> box = new Box(Integer.parseInt(scanner.nextLine()));
+            Box<Integer> box = new Box<>(Integer.parseInt(scanner.nextLine()));
 
             System.out.println(box);
         }
