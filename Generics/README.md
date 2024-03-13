@@ -48,3 +48,13 @@ Exercise 05 - Generic Count Method String
 
 Count all elements in a collection of boxes which are greater than a given element to compare. In this example we are 
 testing with boxes of String.
+
+Exercise 06 - Generic Count Method Doubles
+-
+
+Same as the last exercise but with Double.
+
+Exercise 07 - Custom List
+-
+
+The container of the custom list created is an array which will be resized according to certain rules. 
