@@ -35,3 +35,7 @@ Exercise 02 - Collection
 
 ListyIterator class implements Interface Iterable<>. Inside the class have another class which implements 
 interface Iterator<>.
+
+Exercise 03 - Stack Iterator
+-
+
