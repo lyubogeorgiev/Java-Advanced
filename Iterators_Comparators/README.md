@@ -29,3 +29,9 @@ Exercise 01 - Listy Iterator
 
 A class ListyIterator will implement Interface Iterator<String>. The class itself will have a container which will is a 
 List of Strings. The class is tested in the Main method according to the requirements.
+
+Exercise 02 - Collection
+-
+
+ListyIterator class implements Interface Iterable<>. Inside the class have another class which implements 
+interface Iterator<>.
