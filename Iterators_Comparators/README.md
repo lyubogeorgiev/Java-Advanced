@@ -23,3 +23,9 @@ Lab 04 - Book Comparator
 Created an external Class BookComparator that implemented the interface Comparator<Book> and its method compare. The 
 difference between this way to compare and the one with a method compareTo() inside the Book class is that here we can 
 compare any 2 books by just passing book1 and books2 to BookComparator.compare();
+
+Exercise 01 - Listy Iterator
+-
+
+A class ListyIterator will implement Interface Iterator<String>. The class itself will have a container which will is a 
+List of Strings. The class is tested in the Main method according to the requirements.
