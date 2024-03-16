@@ -39,3 +39,5 @@ interface Iterator<>.
 Exercise 03 - Stack Iterator
 -
 
+Created a nested class Iterator<T> into the StackIterator class. The main was implemented according to the requirements. 
+Created a method in main, which returns only an array of Integer by separating the command out of the array.

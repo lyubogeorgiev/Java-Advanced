@@ -35,7 +35,7 @@ public class StackIterator implements Iterable<Integer> {
 
         @Override
         public boolean hasNext() {
-            return this.index > 0;
+            return this.index > -1;
         }
 
         @Override

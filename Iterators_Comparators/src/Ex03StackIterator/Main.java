@@ -16,7 +16,7 @@ public class Main {
 
             switch (tokens[0]){
                 case "Push":
-                    stackIterator.push(convertToIntArray(tokens[1]));
+                    stackIterator.push(convertToIntArray(command));
                     break;
                 case "Pop":
                     stackIterator.pop();
@@ -26,12 +26,18 @@ public class Main {
             command = scanner.nextLine();
         }
 
-        for (Integer i : stackIterator) {
-            System.out.println(i);
+        for (int i = 0; i < 2; i++) {
+
+            for (Integer num : stackIterator) {
+                System.out.println(num);
+            }
         }
     }
 
     private static Integer[] convertToIntArray(String input){
-        return Arrays.stream(input.split(", ")).map(Integer::parseInt).toArray(Integer[]::new);
+        String[] tokens = input.split(", ");
+        tokens[0] = tokens[0].split("\\s+")[1];
+
+        return Arrays.stream(tokens).map(Integer::parseInt).toArray(Integer[]::new);
     }
 }
