@@ -41,3 +41,9 @@ Exercise 03 - Stack Iterator
 
 Created a nested class Iterator<T> into the StackIterator class. The main was implemented according to the requirements. 
 Created a method in main, which returns only an array of Integer by separating the command out of the array.
+
+Exercise 04 - Froggy
+-
+
+The specific thing here is to make the Iterator<> iterate over the odd indexes first and then iterate over the even indexes 
+till the end of the container Array.
