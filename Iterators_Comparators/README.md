@@ -47,3 +47,17 @@ Exercise 04 - Froggy
 
 The specific thing here is to make the Iterator<> iterate over the odd indexes first and then iterate over the even indexes 
 till the end of the container Array.
+
+Exercise 05 - Comparing Objects
+-
+
+Implementing Comparable<> interface to the class person and overriding the compareTo() method 
+to specify how an Object of type Person will compare to another object of Person class.
+
+Exercise 06 - Strategy Pattern
+-
+
+Creates 2 classes NameComparator and AgeComparator which both extend the Comparator<Person> class. Each of the comparator 
+classes are comparing the Person object according to the requirements. 2 TreeSets were created as one is using the first 
+Comparator class and the other one is using the second Comparator class. TreeSet(new NameComparator()); The toString() 
+method is overridden in the class Person.
